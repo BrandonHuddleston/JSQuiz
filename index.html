@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Coding Quiz</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div class="top-bar">
+            <button class="btn scoreButton">View Highscores</button>
+            <p id="timer">Time | -- </p>
+        </div>
+
+        <div id="initials">
+            <h2 id=>Finished!</h2>
+            <p id="finalScore"></p>
+            <div id="initialsLine">
+                <p>Enter initials:</p>
+                <input type="text" name="Initials Here" class="form-control inputSection">
+                <button type="button" class="btn submit">Submit</button>
+            </div>
+        </div>
+
+        <div class="questions" id="secondaryBackground">
+            <ul>
+            </ul>
+        </div>
+
+        <div class="homeButton"></div>
+        <div id=highScoreDiv></div>
+
+        <div class="landing" id="landing">
+            <h1 id="secondaryBackground">JavaScript Quiz</h1>
+            <hr>
+            <p id="secondaryBackground">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your time by ten seconds!</p>
+            <button type="button" class="btn" id="startButton">Start</button>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="assets/js/questions.js"></script>
+        <script type="text/javascript" src="assets/js/script.js"></script>
+    </body>
+</html>
